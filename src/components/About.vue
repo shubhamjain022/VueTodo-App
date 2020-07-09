@@ -1,7 +1,7 @@
 <template>
     <div class="about">
         <h1>Hello {{ name }}, <br>This is an About Page</h1>
-        <p>My name is {{ name }}, I am a Software Developer. Basically I worked on Javascript and Javascript Framework such as Angular and Vue.
+        <p>{{'My name is ' + name + ', '}}I am a Software Developer. Basically I worked on Javascript and Javascript Framework such as Angular and Vue.
             On Vue I started today to learn and working pratical project of Adding Skill and I must say Vue.js is an amazing framwork.
         </p>
     </div>

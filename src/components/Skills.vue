@@ -4,7 +4,7 @@
         <div class="holder">
 
             <form @submit.prevent="addSkill">
-                <input type="text" placeholder="Enter a skill you have.." v-model="skill" name="skill">
+                <input type="text" placeholder="Enter items in your todo list.." v-model="skill" name="skill">
                 <!-- {{ skill }} -->
             </form>
             <ul>
